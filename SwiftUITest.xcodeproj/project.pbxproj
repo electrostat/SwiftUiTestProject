@@ -16,6 +16,8 @@
 		A8BFCF1823E5DAF60032F0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BFCF1623E5DAF60032F0EB /* LaunchScreen.storyboard */; };
 		A8BFCF2323E5DAF70032F0EB /* SwiftUITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCF2223E5DAF70032F0EB /* SwiftUITestTests.swift */; };
 		A8BFCF2E23E5DAF70032F0EB /* SwiftUITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCF2D23E5DAF70032F0EB /* SwiftUITestUITests.swift */; };
+		A8BFCF3C23E5E3650032F0EB /* ContentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCF3B23E5E3650032F0EB /* ContentRow.swift */; };
+		A8BFCF3E23E5E40A0032F0EB /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCF3D23E5E40A0032F0EB /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A8BFCF2923E5DAF70032F0EB /* SwiftUITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BFCF2D23E5DAF70032F0EB /* SwiftUITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestUITests.swift; sourceTree = "<group>"; };
 		A8BFCF2F23E5DAF70032F0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BFCF3B23E5E3650032F0EB /* ContentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRow.swift; sourceTree = "<group>"; };
+		A8BFCF3D23E5E40A0032F0EB /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +108,13 @@
 				A8BFCF0823E5DAF40032F0EB /* AppDelegate.swift */,
 				A8BFCF0A23E5DAF40032F0EB /* SceneDelegate.swift */,
 				A8BFCF0F23E5DAF40032F0EB /* ContentView.swift */,
+				A8BFCF3B23E5E3650032F0EB /* ContentRow.swift */,
 				A8BFCF1123E5DAF60032F0EB /* Assets.xcassets */,
 				A8BFCF1623E5DAF60032F0EB /* LaunchScreen.storyboard */,
 				A8BFCF1923E5DAF60032F0EB /* Info.plist */,
 				A8BFCF0C23E5DAF40032F0EB /* SwiftUITest.xcdatamodeld */,
 				A8BFCF1323E5DAF60032F0EB /* Preview Content */,
+				A8BFCF3D23E5E40A0032F0EB /* DataModel.swift */,
 			);
 			path = SwiftUITest;
 			sourceTree = "<group>";
@@ -273,7 +279,9 @@
 				A8BFCF0923E5DAF40032F0EB /* AppDelegate.swift in Sources */,
 				A8BFCF0B23E5DAF40032F0EB /* SceneDelegate.swift in Sources */,
 				A8BFCF1023E5DAF40032F0EB /* ContentView.swift in Sources */,
+				A8BFCF3C23E5E3650032F0EB /* ContentRow.swift in Sources */,
 				A8BFCF0E23E5DAF40032F0EB /* SwiftUITest.xcdatamodeld in Sources */,
+				A8BFCF3E23E5E40A0032F0EB /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

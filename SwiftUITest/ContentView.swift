@@ -10,7 +10,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        List(starFighters){
+            starFighter in ContentRow(codeName: starFighter.codeName, description: starFighter.description)
+        }
     }
 }
 
