@@ -10,7 +10,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        
+        NavigationView{
+            List(starFighters){ starFighter in
+                NavigationLink(destination: ContentDetail(codeName: starFighter.codeName)) {
+                     ContentRow(codeName: starFighter.codeName, description: starFighter.description)
+                }
+
+            }.navigationBarTitle(Text("StarFighters"), displayMode: .large)
+        }
     }
 }
 
