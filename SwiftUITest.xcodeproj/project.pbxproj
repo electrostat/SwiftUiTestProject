@@ -18,6 +18,7 @@
 		A8BFCF2E23E5DAF70032F0EB /* SwiftUITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCF2D23E5DAF70032F0EB /* SwiftUITestUITests.swift */; };
 		A8BFCF3C23E5E3650032F0EB /* ContentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCF3B23E5E3650032F0EB /* ContentRow.swift */; };
 		A8BFCF3E23E5E40A0032F0EB /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCF3D23E5E40A0032F0EB /* DataModel.swift */; };
+		A8BFCF4023E5EA2E0032F0EB /* ContentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCF3F23E5EA2E0032F0EB /* ContentDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A8BFCF2F23E5DAF70032F0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8BFCF3B23E5E3650032F0EB /* ContentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRow.swift; sourceTree = "<group>"; };
 		A8BFCF3D23E5E40A0032F0EB /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		A8BFCF3F23E5EA2E0032F0EB /* ContentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				A8BFCF0A23E5DAF40032F0EB /* SceneDelegate.swift */,
 				A8BFCF0F23E5DAF40032F0EB /* ContentView.swift */,
 				A8BFCF3B23E5E3650032F0EB /* ContentRow.swift */,
+				A8BFCF3F23E5EA2E0032F0EB /* ContentDetail.swift */,
 				A8BFCF1123E5DAF60032F0EB /* Assets.xcassets */,
 				A8BFCF1623E5DAF60032F0EB /* LaunchScreen.storyboard */,
 				A8BFCF1923E5DAF60032F0EB /* Info.plist */,
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8BFCF0923E5DAF40032F0EB /* AppDelegate.swift in Sources */,
+				A8BFCF4023E5EA2E0032F0EB /* ContentDetail.swift in Sources */,
 				A8BFCF0B23E5DAF40032F0EB /* SceneDelegate.swift in Sources */,
 				A8BFCF1023E5DAF40032F0EB /* ContentView.swift in Sources */,
 				A8BFCF3C23E5E3650032F0EB /* ContentRow.swift in Sources */,
