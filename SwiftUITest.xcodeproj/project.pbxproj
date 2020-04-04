@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A8110F402438E56D009E5ADF /* ApiContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8110F3F2438E56D009E5ADF /* ApiContent.swift */; };
+		A8110F422438E673009E5ADF /* ApiDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8110F412438E673009E5ADF /* ApiDetail.swift */; };
 		A8BFCF0923E5DAF40032F0EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCF0823E5DAF40032F0EB /* AppDelegate.swift */; };
 		A8BFCF0B23E5DAF40032F0EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCF0A23E5DAF40032F0EB /* SceneDelegate.swift */; };
 		A8BFCF0E23E5DAF40032F0EB /* SwiftUITest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCF0C23E5DAF40032F0EB /* SwiftUITest.xcdatamodeld */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		A8110F3F2438E56D009E5ADF /* ApiContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiContent.swift; sourceTree = "<group>"; };
+		A8110F412438E673009E5ADF /* ApiDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiDetail.swift; sourceTree = "<group>"; };
 		A8BFCF0523E5DAF40032F0EB /* SwiftUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BFCF0823E5DAF40032F0EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8BFCF0A23E5DAF40032F0EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,10 +111,12 @@
 		A8BFCF0723E5DAF40032F0EB /* SwiftUITest */ = {
 			isa = PBXGroup;
 			children = (
+				A8BFCF3D23E5E40A0032F0EB /* DataModel.swift */,
 				A8BFCF0823E5DAF40032F0EB /* AppDelegate.swift */,
 				A8BFCF0A23E5DAF40032F0EB /* SceneDelegate.swift */,
 				A8BFCF0F23E5DAF40032F0EB /* ContentView.swift */,
 				A8110F3F2438E56D009E5ADF /* ApiContent.swift */,
+				A8110F412438E673009E5ADF /* ApiDetail.swift */,
 				A8BFCF3B23E5E3650032F0EB /* ContentRow.swift */,
 				A8BFCF3F23E5EA2E0032F0EB /* ContentDetail.swift */,
 				A8BFCF1123E5DAF60032F0EB /* Assets.xcassets */,
@@ -120,7 +124,6 @@
 				A8BFCF1923E5DAF60032F0EB /* Info.plist */,
 				A8BFCF0C23E5DAF40032F0EB /* SwiftUITest.xcdatamodeld */,
 				A8BFCF1323E5DAF60032F0EB /* Preview Content */,
-				A8BFCF3D23E5E40A0032F0EB /* DataModel.swift */,
 			);
 			path = SwiftUITest;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				A8BFCF3C23E5E3650032F0EB /* ContentRow.swift in Sources */,
 				A8BFCF0E23E5DAF40032F0EB /* SwiftUITest.xcdatamodeld in Sources */,
 				A8BFCF3E23E5E40A0032F0EB /* DataModel.swift in Sources */,
+				A8110F422438E673009E5ADF /* ApiDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,17 +13,22 @@ struct ContentView: View {
         
         VStack {
             NavigationView{
-                List(starFighters){ starFighter in
-                    NavigationLink(destination: ContentDetail(codeName: starFighter.codeName)) {
-                         ContentRow(codeName: starFighter.codeName, description: starFighter.description)
-                    }
+                VStack {
+                    List(starFighters){ starFighter in
+                        NavigationLink(destination: ContentDetail(codeName: starFighter.codeName)) {
+                             ContentRow(codeName: starFighter.codeName, description: starFighter.description)
+                        }
 
-                }.navigationBarTitle(Text("StarFighters"), displayMode: .large)
+                    }.navigationBarTitle(Text("StarFighters"), displayMode: .large)
+                    
+                    NavigationLink(destination: ApiDetail()){
+                         APIContent(text:"API Test")
+                    }
+                }
+                
             }
             
-            NavigationLink(destination: ContentDetail(codeName: "X-Wing")){
-                 APIContent(text:"API Test")
-            }
+            
         }
     }
 }
