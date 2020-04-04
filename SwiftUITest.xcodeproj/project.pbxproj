@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8110F402438E56D009E5ADF /* ApiContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8110F3F2438E56D009E5ADF /* ApiContent.swift */; };
 		A8BFCF0923E5DAF40032F0EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCF0823E5DAF40032F0EB /* AppDelegate.swift */; };
 		A8BFCF0B23E5DAF40032F0EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCF0A23E5DAF40032F0EB /* SceneDelegate.swift */; };
 		A8BFCF0E23E5DAF40032F0EB /* SwiftUITest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCF0C23E5DAF40032F0EB /* SwiftUITest.xcdatamodeld */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8110F3F2438E56D009E5ADF /* ApiContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiContent.swift; sourceTree = "<group>"; };
 		A8BFCF0523E5DAF40032F0EB /* SwiftUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BFCF0823E5DAF40032F0EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8BFCF0A23E5DAF40032F0EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				A8BFCF0823E5DAF40032F0EB /* AppDelegate.swift */,
 				A8BFCF0A23E5DAF40032F0EB /* SceneDelegate.swift */,
 				A8BFCF0F23E5DAF40032F0EB /* ContentView.swift */,
+				A8110F3F2438E56D009E5ADF /* ApiContent.swift */,
 				A8BFCF3B23E5E3650032F0EB /* ContentRow.swift */,
 				A8BFCF3F23E5EA2E0032F0EB /* ContentDetail.swift */,
 				A8BFCF1123E5DAF60032F0EB /* Assets.xcassets */,
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8110F402438E56D009E5ADF /* ApiContent.swift in Sources */,
 				A8BFCF0923E5DAF40032F0EB /* AppDelegate.swift in Sources */,
 				A8BFCF4023E5EA2E0032F0EB /* ContentDetail.swift in Sources */,
 				A8BFCF0B23E5DAF40032F0EB /* SceneDelegate.swift in Sources */,

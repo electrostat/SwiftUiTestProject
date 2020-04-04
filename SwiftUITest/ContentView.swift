@@ -11,13 +11,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        NavigationView{
-            List(starFighters){ starFighter in
-                NavigationLink(destination: ContentDetail(codeName: starFighter.codeName)) {
-                     ContentRow(codeName: starFighter.codeName, description: starFighter.description)
-                }
+        VStack {
+            NavigationView{
+                List(starFighters){ starFighter in
+                    NavigationLink(destination: ContentDetail(codeName: starFighter.codeName)) {
+                         ContentRow(codeName: starFighter.codeName, description: starFighter.description)
+                    }
 
-            }.navigationBarTitle(Text("StarFighters"), displayMode: .large)
+                }.navigationBarTitle(Text("StarFighters"), displayMode: .large)
+            }
+            
+            NavigationLink(destination: ContentDetail(codeName: "X-Wing")){
+                 APIContent(text:"API Test")
+            }
         }
     }
 }
