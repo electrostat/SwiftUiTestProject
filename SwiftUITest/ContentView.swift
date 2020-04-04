@@ -25,10 +25,7 @@ struct ContentView: View {
                          APIContent(text:"API Test")
                     }
                 }
-                
             }
-            
-            
         }
     }
 }
