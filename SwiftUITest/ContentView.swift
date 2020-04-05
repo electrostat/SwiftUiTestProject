@@ -14,7 +14,7 @@ struct ContentView: View {
             NavigationView{
                 VStack {
                     List(starFighters){ starFighter in
-                        NavigationLink(destination: ContentDetail(codeName: starFighter.codeName)) {
+                        NavigationLink(destination: ContentDetail(codeName:starFighter.codeName, url: starFighter.url)) {
                              ContentRow(codeName: starFighter.codeName, description: starFighter.description)
                         }
                     }.navigationBarTitle(Text("StarFighters"), displayMode: .large)
